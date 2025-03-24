@@ -5,7 +5,7 @@
   "taskFormat": "tasksPluginEmoji",
   "setCreatedDate": false,
   "setDoneDate": true,
-  "setCancelledDate": true,
+  "setCancelledDate": false,
   "autoSuggestInEditor": true,
   "autoSuggestMinMatch": 0,
   "autoSuggestMaxItems": 20,
@@ -19,7 +19,7 @@
       {
         "symbol": " ",
         "name": "Todo",
-        "nextStatusSymbol": "x",
+        "nextStatusSymbol": "/",
         "availableAsCommand": true,
         "type": "TODO"
       },
@@ -47,158 +47,130 @@
         "type": "CANCELLED"
       },
       {
-        "symbol": " ",
-        "name": "to-do",
-        "nextStatusSymbol": "x",
-        "availableAsCommand": false,
-        "type": "TODO"
-      },
-      {
-        "symbol": "/",
-        "name": "incomplete",
-        "nextStatusSymbol": "x",
-        "availableAsCommand": false,
-        "type": "IN_PROGRESS"
-      },
-      {
-        "symbol": "x",
-        "name": "done",
-        "nextStatusSymbol": " ",
-        "availableAsCommand": false,
-        "type": "DONE"
-      },
-      {
-        "symbol": "-",
-        "name": "canceled",
-        "nextStatusSymbol": " ",
-        "availableAsCommand": false,
-        "type": "CANCELLED"
-      },
-      {
         "symbol": ">",
         "name": "forwarded",
-        "nextStatusSymbol": "x",
+        "nextStatusSymbol": " ",
         "availableAsCommand": false,
         "type": "TODO"
       },
       {
         "symbol": "<",
         "name": "scheduling",
-        "nextStatusSymbol": "x",
+        "nextStatusSymbol": " ",
         "availableAsCommand": false,
         "type": "TODO"
       },
       {
         "symbol": "?",
         "name": "question",
-        "nextStatusSymbol": "x",
+        "nextStatusSymbol": "i",
         "availableAsCommand": false,
-        "type": "TODO"
+        "type": "NON_TASK"
       },
       {
         "symbol": "!",
         "name": "important",
-        "nextStatusSymbol": "x",
+        "nextStatusSymbol": " ",
         "availableAsCommand": false,
         "type": "TODO"
       },
       {
         "symbol": "*",
         "name": "star",
-        "nextStatusSymbol": "x",
+        "nextStatusSymbol": "*",
         "availableAsCommand": false,
-        "type": "TODO"
+        "type": "NON_TASK"
       },
       {
         "symbol": "\"",
         "name": "quote",
-        "nextStatusSymbol": "x",
+        "nextStatusSymbol": "\"",
         "availableAsCommand": false,
-        "type": "TODO"
+        "type": "NON_TASK"
       },
       {
         "symbol": "l",
         "name": "location",
-        "nextStatusSymbol": "x",
+        "nextStatusSymbol": "l",
         "availableAsCommand": false,
-        "type": "TODO"
+        "type": "NON_TASK"
       },
       {
         "symbol": "b",
         "name": "bookmark",
-        "nextStatusSymbol": "x",
+        "nextStatusSymbol": "b",
         "availableAsCommand": false,
-        "type": "TODO"
+        "type": "NON_TASK"
       },
       {
         "symbol": "i",
         "name": "information",
-        "nextStatusSymbol": "x",
+        "nextStatusSymbol": "i",
         "availableAsCommand": false,
-        "type": "TODO"
+        "type": "NON_TASK"
       },
       {
         "symbol": "S",
         "name": "savings",
-        "nextStatusSymbol": "x",
+        "nextStatusSymbol": "S",
         "availableAsCommand": false,
-        "type": "TODO"
+        "type": "NON_TASK"
       },
       {
         "symbol": "I",
         "name": "idea",
-        "nextStatusSymbol": "x",
+        "nextStatusSymbol": " ",
         "availableAsCommand": false,
-        "type": "TODO"
+        "type": "NON_TASK"
       },
       {
         "symbol": "p",
         "name": "pros",
-        "nextStatusSymbol": "x",
+        "nextStatusSymbol": "p",
         "availableAsCommand": false,
-        "type": "TODO"
+        "type": "NON_TASK"
       },
       {
         "symbol": "c",
         "name": "cons",
-        "nextStatusSymbol": "x",
+        "nextStatusSymbol": "c",
         "availableAsCommand": false,
-        "type": "TODO"
+        "type": "NON_TASK"
       },
       {
         "symbol": "f",
         "name": "fire",
-        "nextStatusSymbol": "x",
+        "nextStatusSymbol": "f",
         "availableAsCommand": false,
-        "type": "TODO"
+        "type": "NON_TASK"
       },
       {
         "symbol": "k",
         "name": "key",
-        "nextStatusSymbol": "x",
+        "nextStatusSymbol": "k",
         "availableAsCommand": false,
-        "type": "TODO"
+        "type": "NON_TASK"
       },
       {
         "symbol": "w",
         "name": "win",
-        "nextStatusSymbol": "x",
+        "nextStatusSymbol": "w",
         "availableAsCommand": false,
-        "type": "TODO"
+        "type": "NON_TASK"
       },
       {
         "symbol": "u",
         "name": "up",
-        "nextStatusSymbol": "x",
+        "nextStatusSymbol": "u",
         "availableAsCommand": false,
-        "type": "TODO"
+        "type": "NON_TASK"
       },
       {
         "symbol": "d",
         "name": "down",
-        "nextStatusSymbol": "x",
+        "nextStatusSymbol": "d",
         "availableAsCommand": false,
-        "type": "TODO"
+        "type": "NON_TASK"
       }
     ]
   },

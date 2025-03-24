@@ -2,7 +2,9 @@
   "obsidian-hider",
   "obsidian-excalidraw-plugin",
   "obsidian-icon-folder",
-  "obsidian-minimal-settings",
   "obsidian-tasks-plugin",
-  "code-styler"
+  "code-styler",
+  "obsidian-linter",
+  "automatic-table-of-contents",
+  "numerals"
 ]

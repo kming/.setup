@@ -1,6 +1,10 @@
 {
   "cssTheme": "Minimal",
-  "baseFontSize": 20,
+  "baseFontSize": 14,
   "theme": "obsidian",
-  "translucency": true
+  "translucency": true,
+  "monospaceFontFamily": "Hack Nerd Font Mono",
+  "textFontFamily": "Hack Nerd Font",
+  "interfaceFontFamily": "Hack Nerd Font",
+  "accentColor": "#ff9924"
 }
